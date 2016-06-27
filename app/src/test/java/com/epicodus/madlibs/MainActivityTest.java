@@ -28,7 +28,7 @@ public class MainActivityTest {
 
     @Test
     public void validateTextViewContent() {
-        Button button = (Button) activity.findViewById(R.id.button);
+        Button button = (Button) activity.findViewById(R.id.submitButton);
         assertTrue("Submit to see results".equals(button.getText().toString()));
     }
 }

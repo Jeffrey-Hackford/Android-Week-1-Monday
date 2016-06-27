@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         mVerbOne = (EditText) findViewById(R.id.verbOne);
         mVerbTwo = (EditText) findViewById(R.id.verbTwo);
         mLocation = (EditText) findViewById(R.id.location);
-        mButton = (Button) findViewById(R.id.button);
+        mButton = (Button) findViewById(R.id.submitButton);
 
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
